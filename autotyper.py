@@ -4,7 +4,7 @@ import pyperclip
 
 def autotyper(speed=0.005):
     # Delay before starting
-    time.sleep(30)
+    time.sleep(5)
 
     # Get the content from the clipboard
     clipboard_content = pyperclip.paste()
